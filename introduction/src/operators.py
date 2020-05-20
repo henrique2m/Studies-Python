@@ -2,7 +2,7 @@ print('------------------Saída de dados--------------------')
 
 print('Hello World!') # Quebra de linha é equivalente ao ";", finalizando um comando;
 
-print('-----------Operadores aritiméticos---------------------')
+print('-----------Operadores aritméticos---------------------')
 
 print(1+2) # adição
 
@@ -28,10 +28,37 @@ name = input('Qual é o seu nome jovem padawan?')
 
 print(name, ' é um nome bonito! (:')
 
-# exercício 1
 
-n1 = int(input('Informe um número.'))
-n2 = int(input('Informe outro número.'))
+#Tipos primitivos
+#int -> Números inteiros
+#float -> Números reais 
+#bool -> boolean 
+#str -> string
+
+
+# exercício 1
+n1 = int(input('Informe um número. '))
+n2 = int(input('Informe outro número. '))
 
 print(n1+n2)
+
+print('------------Tipo de dados--------------')
+
+# exercício 2
+n3 = input('Digite algo: ')
+print(type(n3)) #Retorna o tipo de dados
+
+# exercício 3
+print('----------Método (format())---------')
+n4 = int(input('Digite um número: '))
+n5 = int(input('Digite outro número:'))
+soma = (n4 + n5)
+print('A soma de {} e {} é {}'.format(n4, n5, soma))
+
+print('----------Método (isnumeric)---------')
+# exercício 4
+n6 = input('Informe um valor: ')
+print(n6.isnumeric(), n6.isspace())
+
+
  
