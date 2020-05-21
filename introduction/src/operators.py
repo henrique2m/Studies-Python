@@ -4,6 +4,12 @@ print('Hello World!') # Quebra de linha é equivalente ao ";", finalizando um co
 
 print('-----------Operadores aritméticos---------------------')
 
+# Ordem de precedência
+    # ()
+    # **
+    # *, /, //, %
+    # +, - 
+
 print(1+2) # adição
 
 print(2-1) # subtração
@@ -12,9 +18,17 @@ print(2*6) # multiplicação
 
 print(6/2) # divisão
 
+print(7//2) # divisão inteira
+
 print(2**3) # exponenciação
 
 print(4%2) # módulo 
+
+
+expo = pow(4, 3) # função para exponenciação 
+raizQ = 81**(1/2) # Raiz Quadrada
+raizC = 127**(1/3) # Raiz Cúbica 
+print(expo, raizQ, raizC)
 
 print('--------------Operadores de concatenação------------')
 

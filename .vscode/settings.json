@@ -1,6 +1,11 @@
 {
     "cSpell.words": [
+        "isalnum",
+        "isalpha",
+        "islower",
         "isnumeric",
+        "istitle",
+        "isupper",
         "padawan"
     ]
 }
