@@ -75,11 +75,29 @@ print('A parede possui uma área de {} m², serão necessários {} L de tinta pa
 product = float(input('Informe o valor do produto: '))
 discount = (product*5)/100
 
-print('Com um desconto de 5 por cento o produto passará a valer R$ {}'.format(product-discount))
+print('Com um desconto de 5 por cento o produto passará a valer R$ {:.2f}'.format(product-discount))
 
 # 8 - crie um algoritmo que calcule um aumento de 10% no salário
 
 salary = float(input('Informe seu salário: '))
 add = (salary*15)/100
 
-print('Com um aumento de 15 por cento seu sálario passará a ser ${}'.format(salary+add))
+print('Com um aumento de 15 por cento seu sálario passará a ser ${:.2f}'.format(salary+add))
+
+# - crie um algoritmo que converta a temperatura de °C para °F
+
+c = float(input('Informe a temperatura em °C: '))
+f = ((9 * c) / 5) + 32
+
+print('A temperatura de {}°C corresponde a {}°F'.format(c, f))
+
+# - crie um algoritmo que calcule o valor para alugar um carro
+
+day = int(input('Quantos dias você ficou com o carro? '))
+km = float(input('Quantos km você rodou? '))
+
+value = (day * 60) + (km * 0.15)
+
+print('O total a pagar é de R${:.2f}'.format(value))
+
+
