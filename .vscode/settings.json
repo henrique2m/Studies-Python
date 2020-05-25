@@ -6,6 +6,11 @@
         "isnumeric",
         "istitle",
         "isupper",
-        "padawan"
+        "padawan",
+        "pygame"
+    ],
+    "python.linting.pylintArgs": [
+    "---- extension-pkg-whitelist = 1xml"
     ]
 }
+
