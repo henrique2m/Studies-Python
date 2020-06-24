@@ -11,6 +11,7 @@
     ],
     "python.linting.pylintArgs": [
     "---- extension-pkg-whitelist = 1xml"
-    ]
+    ],
+    "vscodeGoogleTranslate.preferredLanguage": "en"
 }
 
